@@ -1,0 +1,4 @@
+rootProject.name = 'java-chat-application'
+include 'chat'
+project(':chat').projectDir = file('chat')
+include 'chat:server', 'chat:client', 'chat:common'
